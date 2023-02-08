@@ -1,0 +1,72 @@
+.empty {   
+    box-sizing: border-box;
+    
+    position: absolute;
+    
+    margin-top: 8.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 1.5rem;
+    gap: 2rem;
+    
+    width: 46rem;
+    height: 15.25rem; 
+    
+    border-top: 1px solid #333333;
+    border-radius: 8px;
+    
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0; 
+    } 
+    
+    
+    .empty span {
+    
+    width: 688px;
+    height: 44px;
+    
+    
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    
+    text-align: center;
+    
+    /* Gray 300 */
+    
+    color: var(--gray-300); 
+    
+    }
+    
+    .empty p {
+    
+        margin-top: -2rem;
+        width: 300px;
+        height: 44px;
+        
+        
+        font-weight: 500;
+        font-size: 16px;
+        
+        text-align: center;
+        
+        /* Gray 300 */
+        
+        color: var(--gray-300);  
+        
+        }
+    
+    
+    
+    .empty a {
+    
+        margin-top: 10rem;
+        
+        /* Inside auto layout */
+    
+    }

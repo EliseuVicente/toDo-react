@@ -1,0 +1,16 @@
+.header {
+    position: relative;
+    background: var(--gray-700);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12.5rem;
+}
+
+.header img {
+    position: flex;
+    width: 7.875rem;
+    height: 3rem;
+    left: 41.063rem;
+    top: 4.5rem;
+}
