@@ -12,7 +12,10 @@
     left: calc(50% - 46rem/2);
     top: 6.1875rem;
 
-    
+    @media(max-width: 574px) {
+        left: 0;
+        width: 90vw;
+      }
 }
 
 .taskBox >header {
@@ -26,13 +29,9 @@
     width: 46rem;
     height: 1.1875rem;
 
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
+    @media(max-width: 574px) {
+        width: 90vw;
+      }
 }
 
 .tasksCreated {
@@ -46,19 +45,8 @@
     height: 1.0625rem;
     font-size: 14px;
     line-height: 1.0625rem;
-    /* identical to box height */
-
-
-    /* Blue */
 
     color: #4EA8DE;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 
 }
 
@@ -73,8 +61,6 @@
     margin-left: 0.5rem;
     width: 1.5625rem;
     height: 1.1875rem;
-    
-    /* Gray 400 */
     
     background: #333333;
     border-radius: 62.4375rem;    
@@ -94,19 +80,9 @@
     height: 1rem;
     font-size: 14px;
     line-height: 1rem;
-    /* identical to box height */
-
-
-    /* Purple */
 
     color: #8284FA;
 
-
-    /* Inside auto layout */
-    
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
 .countCompleted {
@@ -127,11 +103,6 @@
     background: var(--gray-400);
     border-radius: 62.4375rem;
 
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
 }
 
 .taskItems + .taskItems {
@@ -142,12 +113,7 @@
 
 .taskItems {
 
-    /* Task */
 margin-top: 5rem;
-
-box-sizing: border-box;
-
-/* Auto layout */
 
 display: flex;
 flex-direction: row;
@@ -158,21 +124,17 @@ gap: 0.75rem;
 width: 46rem;
 height: 4.5rem;
 
-/* Gray 500 */
-
 background: #262626;
-/* Gray 400 */
 
 border: 0.063rem solid #333333;
 box-shadow: 0rem 0.125rem 0.5rem rgba(0, 0, 0, 0.06);
 border-radius: 0.5rem;
 
-/* Inside auto layout */
+@media(max-width: 574px) {
+    width: 90vw;
+    margin-left: 1rem;
+  }
 
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
 }
 
 
